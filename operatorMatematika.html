@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let result = 28 * 56;
+      document.writeln('<p> 28 x 56 = ' + result + '</p>'); //1568
+      let originalResult = result; //1568
+
+      //Augmented assigment
+      result /= 7;
+      document.writeln('<p>' + originalResult + ' : 7 = ' + result + '</p>'); //224
+      originalResult = result; //224
+
+      result *= 9;
+      document.writeln('<p>' + originalResult + ' : 9 = ' + result + '</p>'); //2016
+
+      //operator unary
+      result++;
+      document.writeln('<p>' + originalResult + ' + 1 = ' + result + '</p>'); //2017
+
+      result = -result;
+      document.writeln('<p>' + originalResult + ' x -1 = ' + result + '</p>'); // -2017
+    </script>
+  </body>
+</html>
