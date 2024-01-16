@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      const name = 'Ahmad Shofi Muharom';
+      const value = 90;
+
+      // Expression di stringTemplate
+
+      const template = `Name : ${name}, Lulus : ${value > 75}`;
+
+      console.info(template);
+
+      let multiLineString = `
+      Nama saya adalah Ahmad Shofi Muharom
+      Hello World
+      Hhahahahahha
+      Tesh Ah
+      `;
+      document.writeln('<pre>'); // Fungsi "pre" untuk membuat baris
+      document.write(multiLineString);
+      document.write('</pre>');
+
+      //multiString tidak dapat menggunakan " dan '
+    </script>
+  </body>
+</html>
