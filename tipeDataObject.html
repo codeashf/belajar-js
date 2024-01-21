@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      const person = {
+        'Nama lengkap': 'Ahmad Shofi',
+        Alamat: 'Sukabumi',
+        usia: 24,
+      };
+
+      console.table(person);
+
+      delete person['Usia']; // Menghapus
+
+      console.table(person);
+
+      person['email'] = 'asf.muharom@gmail.com'; //menambah properties baru
+
+      person['Alamat'] = 'Bandung'; // Mengubah value pada attributes
+
+      console.table(person);
+
+      person.length; // Memunculkan panjang attributes/properties
+      console.info(person);
+
+      console.info(`Nama : ${person['Nama lengkap']}`); //Mengakses property object
+      console.info(`Alamat : ${person.Alamat}`); // menggunakan backtick bukan kutip
+      console.info(`Usia : ${person.usia}`);
+    </script>
+  </body>
+</html>

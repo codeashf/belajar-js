@@ -12,6 +12,28 @@
     <script>
       let arrayKosong = [];
       let arrayNama = ['Ahmad', 'Shofi', 'Muharom'];
+
+      const names = [];
+      names.push('Ahmad');
+      names.push('Shofi', 'Muharom');
+      names.push('Jefri', 'Nichol');
+
+      console.info(names[0]);
+      console.info(names[1]);
+      console.info(names[2]);
+
+      console.table(names);
+      names.push('Gojo'); // menambah data ke array
+      names[1] = 'Thorfin'; // mengganti data di posisi index
+      delete names[1]; // menghapus data dari index
+      names.length; //mendapatkan panjang array
+      names.push(500, 345, 698, 785); // memasukan data kombinasi "Interger" ke array
+
+      names.push([23, 54, 12, 24, 25]); // menambah array beberapa dimensi
+
+      console.table(names);
+
+      console.info(names[5]); // Mendapatkan data diposisi index
     </script>
   </body>
 </html>
