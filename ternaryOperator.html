@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Ternary Operator</title>
+  </head>
+  <body>
+    <script>
+      // if Statement
+      const value = 60;
+      let ucapan;
+
+      if (value >= 75) {
+        ucapan = 'Selamat Anda Lulus';
+      } else {
+        ucapan = 'Coba Lagi';
+      }
+
+      document.writeln(ucapan);
+
+      //menggunakan ternary
+
+      const nilai = 80;
+      const say = nilai >= 75 ? 'Selamat Anda Lulus' : 'Silahkan Coba Lagi';
+
+      document.writeln(`<p>${say}</p>`);
+
+      // Ternary Operator bisa menggunakan konstan , sedangkan if tidak bisa
+    </script>
+  </body>
+</html>
