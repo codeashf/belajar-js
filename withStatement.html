@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      const person = {
+        firstName: 'Ahmad',
+        middleName: 'Shofi',
+        lastName: 'Muharom',
+      };
+
+      with (person) {
+        document.writeln(firstName);
+        document.writeln(middleName);
+        document.writeln(lastName);
+
+        document.writeln(`<p>${firstName} ${middleName}</p>`);
+      }
+
+      //SUDAH JARANG DIPAKAI DAN TIDAK DI REKOMENDASIKAN
+    </script>
+  </body>
+</html>
