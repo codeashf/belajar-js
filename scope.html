@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      //global scope
+      let counter = 0;
+
+      //Global scope
+      function first() {
+        // local scope hitMe
+        let firstVariable = 'first';
+        console.lnfo(firstVariable);
+      }
+
+      function second() {
+        // local scope other
+        console.lnfo(secondVariable);
+      }
+    </script>
+  </body>
+</html>
